@@ -8,6 +8,7 @@
    Replace `YOUR_EMAIL, YOUR_KEY, YOUR_SUBDOMAIN` with your own respective values.
 3. In two separate terminals, run `npm start` at the root of both the back-end and front-end directories.
 4. The client will be running on port 3000.
+5. Note: If the client is stuck on "Loading", please try re running both the front-end and back-end again.
 
 ## Design Decisions:
 ### How am I retrieving the tickets?
