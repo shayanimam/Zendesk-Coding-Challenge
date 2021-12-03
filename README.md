@@ -11,6 +11,9 @@
 5. Note: If the client is stuck on "Loading", please try re running both the front-end and back-end again.
 
 ## Design Decisions:
+
+I've created the client using React. I also wrote a simple REST API using Express in order to allow the client to communicate with the Zendesk API without making requests on the browser itself.
+
 ### How am I retrieving the tickets?
 To retrieve the list of tickets, I decided to use offset pagination. I went with offset pagination so that my application would be more scalable as the list of tickets grows. 
 ### How am I rendering the tickets on the front end?
